@@ -6,6 +6,7 @@ import QuizLogo from "../components/QuizLogo";
 import QuizBackground from "../components/QuizBackground";
 import Footer from "../components/Footer";
 import GitHubCorner from "../components/GithubCorner";
+import Head from "next/head";
 
 
 
@@ -23,6 +24,12 @@ export const QuizContainer = styled.div`
 export default function Home() {
   return (
     <QuizBackground backgroundImage={db.bg}>
+      <Head>
+        <title>Assassin's Quiz</title>
+        <meta property="og:title" content="Assassin's Creed Quiz"/>
+        <meta property="og:image" content="https://i.redd.it/1yingsop7u5b1.png" />
+        <link rel="icon" href="/icon.ico" />
+      </Head>
       <QuizContainer>
         <QuizLogo />
         <Widget>
