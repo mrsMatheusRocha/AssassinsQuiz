@@ -3,18 +3,126 @@
   "title": "Assassin's Creed",
   "description": "Prove os seus conhecimentos sobre a franquia Assassin's Creed. \"Respostas são a verdade, perguntas são permitidas\".",
   "questions": [
-    {
-      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-      "title": "Como fazer um seletor por id via CSS?",
-      "description": "Essa é pra aquecer",
-      "answer": 2,
-      "alternatives": [
-        ".elemento",
-        "*elemento",
-        "#elemento",
-        "%elemento"
-      ]
-    }
+  {
+    "image": "https://64.media.tumblr.com/5d8f020e4a81f2e3e0c4d1db349b0e6f/tumblr_oyssyeKPtV1qcy62fo1_500.gif",
+    "title": "Qual é o nome da peça do Éden que permite controle mental?",
+    "description": "Item poderoso dos Precursores",
+    "answer": 1,
+    "alternatives": [
+      "Cetro do Éden",
+      "Maçã do Éden",
+      "Espada do Éden",
+      "Cristal do Éden"
+    ]
+  },
+  {
+    "image": "https://64.media.tumblr.com/3ccb77f16e91cbd99c91d6c9b049bc1d/tumblr_mh4q8d3h5p1qecbqfo1_r1_500.gif",
+    "title": "Qual ancestral de Desmond Miles é protagonista em Assassin's Creed III?",
+    "description": "Linha de sangue importante",
+    "answer": 2,
+    "alternatives": [
+      "Edward Kenway",
+      "Haytham Kenway",
+      "Connor",
+      "Arno Dorian"
+    ]
+  },
+  {
+    "image": "https://i.gifer.com/5gqL.gif",
+    "title": "Qual personagem trai a Irmandade dos Assassinos em Assassin's Creed Rogue?",
+    "description": "Antigo aliado, novo inimigo",
+    "answer": 0,
+    "alternatives": [
+      "Shay Cormac",
+      "Achilles Davenport",
+      "Liam O'Brien",
+      "Charles Dorian"
+    ]
+  },
+  {
+    "image": "https://64.media.tumblr.com/tumblr_lwraj2Ooe01qi26lwo1_500.gif",
+    "title": "O que é o Animus na franquia?",
+    "description": "Tecnologia central da história",
+    "answer": 1,
+    "alternatives": [
+      "Um tipo de arma",
+      "Uma máquina que permite reviver memórias genéticas",
+      "Um código antigo",
+      "O nome de um templo escondido"
+    ]
+  },
+  {
+    "image": "https://64.media.tumblr.com/b550930f07a9e31d3cdfb9ebb5a31de2/tumblr_pq91rba3Ob1vxuy50o1_540.gifv",
+    "title": "Qual é o papel de Karl Marx em Assassin's Creed Syndicate?",
+    "description": "Um famoso pensador político envolvido nas lutas de Londres",
+    "answer": 3,
+    "alternatives": [
+      "Influenciador neutro que inspira os Templários com ideias de controle",
+      "Infiltrado político com ligações ao consulado prussiano",
+      "Aliado dos Assassinos que oferece missões focadas em justiça social",
+      "Manipulador dos trabalhadores a favor dos Blighters"
+    ]
+  },
+  {
+    "image": "https://i.redd.it/oypwhk8ipf8e1.gif",
+    "title": "Quem liderava os Templários durante os eventos de Assassin's Creed Unity?",
+    "description": "Vilão infiltrado no sistema",
+    "answer": 2,
+    "alternatives": [
+      "François de la Serre",
+      "Arno Dorian",
+      "Germain",
+      "Napoleão Bonaparte"
+    ]
+  },
+  {
+    "image": "https://64.media.tumblr.com/48815f82630f02e73b8251887224de1c/tumblr_pupk4nxJgL1xg3d7ro1_540.gif",
+    "title": "Qual é o nome do império precursor que criou os artefatos do Éden?",
+    "description": "Civilização que precedeu a humanidade",
+    "answer": 0,
+    "alternatives": [
+      "Isu",
+      "Edenitas",
+      "Atlantes",
+      "Anunnaki"
+    ]
+  },
+  {
+    "image": "https://giffiles.alphacoders.com/210/210380.gif",
+    "title": "Qual protagonista possui a Lança de Leônidas como arma principal?",
+    "description": "Artefato de poder misterioso",
+    "answer": 3,
+    "alternatives": [
+      "Evie Frye",
+      "Arno Dorian",
+      "Eivor",
+      "Kassandra"
+    ]
+  },
+  {
+    "image": "https://64.media.tumblr.com/4b89e9bb0245866d87788d9ef152ef26/tumblr_pgoj3bqfPD1v2btx7_400.gifv",
+    "title": "Qual o nome da organização rival dos Templários em Assassin's Creed Odyssey?",
+    "description": "Atuam nas sombras da Grécia Antiga",
+    "answer": 1,
+    "alternatives": [
+      "A Ordem dos Anciãos",
+      "O Culto de Kosmos",
+      "Os Leões de Esparta",
+      "Os Filhos de Hades"
+    ]
+  },
+  {
+    "image": "https://i.makeagif.com/media/5-08-2014/5ZrmFQ.gif",
+    "title": "Qual personagem aparece em múltiplos jogos e ajuda Desmond no presente?",
+    "description": "Ligação entre os jogos e o mundo atual",
+    "answer": 0,
+    "alternatives": [
+      "Shaun Hastings",
+      "Leonardo da Vinci",
+      "Lucy Stillman",
+      "Rebecca Crane"
+    ]
+  }
   ],
   "external": [
     ""

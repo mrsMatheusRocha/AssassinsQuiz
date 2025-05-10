@@ -8,10 +8,12 @@ function QuizLogo() {
 }
 
 const Logo = styled.img`
+  height: 116px;
   margin: auto;
   display: block;
   @media screen and (max-width: 500px) {
-    margin: 0;
+    height: 140px;
+    margin: 0 auto;
   }
 `;
 
