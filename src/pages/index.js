@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import db from "../../public/db.json";
+import { useRouter } from "next/router";
 
 import Widget from "../components/Widget";
 import QuizLogo from "../components/QuizLogo";
@@ -7,8 +8,9 @@ import QuizBackground from "../components/QuizBackground";
 import Footer from "../components/Footer";
 import GitHubCorner from "../components/GithubCorner";
 import Head from "next/head";
-
-
+import { useState } from "react";
+import Button from "@/components/Button";
+import Input from "@/components/Input";
 
 export const QuizContainer = styled.div`
   width: 100%;
@@ -19,9 +21,13 @@ export const QuizContainer = styled.div`
     margin: auto;
     padding: 15px;
   }
-`;
+  `;
 
 export default function Home() {
+  const router = useRouter();
+  const [name, setName] = useState("");
+
+
   return (
     <QuizBackground backgroundImage={db.bg}>
       <Head>
@@ -29,7 +35,7 @@ export default function Home() {
         <meta property="og:title" content="Assassin's Creed Quiz"/>
         <meta property="og:image" content="https://i.redd.it/1yingsop7u5b1.png" />
         <link rel="icon" href="/icon.ico" />
-      </Head>
+        </Head>
       <QuizContainer>
         <QuizLogo />
         <Widget>
@@ -38,6 +44,20 @@ export default function Home() {
           </Widget.Header>
           <Widget.Content>
             <p>{db.description}</p>
+            <form onSubmit={(e) => {
+              e.preventDefault();
+              router.push(`/quiz?name=${name}`)
+            }}>
+              <Input
+                onChange={(e) => {
+                  setName(e.target.value);
+                }}
+                placeholder="Digite seu nome para jogar xD"/
+              >
+              <Button type="submit" disabled={name.length === 0}>
+                Jogar {name}
+              </Button>
+            </form>
           </Widget.Content>
         </Widget>
 
