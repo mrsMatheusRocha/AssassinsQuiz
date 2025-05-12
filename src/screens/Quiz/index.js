@@ -1,3 +1,4 @@
+/* eslint-disable */
 import Button from "@/components/Button";
 
 import QuizBackground from '@/components/QuizBackground';

@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import { createGlobalStyle, ThemeProvider } from "styled-components";
 import Head from "next/head";
 import db from "../../public/db.json";

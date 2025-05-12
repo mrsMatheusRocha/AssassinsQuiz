@@ -84,7 +84,7 @@ export default function Home() {
                   .replace('.vercel.app', '')
                   .split('.');
                 return (
-                  <li>
+                  <li key={linkExterno}>
                     <Widget.Topic 
                       as={Link}
                       href={`/quiz/${projectName}___${githubUser}`}

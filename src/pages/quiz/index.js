@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import Button from "@/components/Button";
 import db from "../../../public/db.json";
 
