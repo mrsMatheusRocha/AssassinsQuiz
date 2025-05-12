@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <QuizBackground backgroundImage={db.bg}>
       <Head>
-        <title>Assassin&apos;s Quiz</title>
+        <title>Assassin's Quiz</title>
         <meta property="og:title" content="Assassin's Creed Quiz"/>
         <meta property="og:image" content="https://i.redd.it/1yingsop7u5b1.png" />
         <link rel="icon" href="/icon.ico" />
