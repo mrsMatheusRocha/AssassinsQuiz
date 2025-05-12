@@ -1,5 +1,5 @@
 import Button from "@/components/Button";
-import db from "../../public/db.json";
+import db from "../../../public/db.json";
 
 import QuizBackground from '@/components/QuizBackground';
 import QuizContainer from '@/components/QuizContainer';
@@ -8,6 +8,7 @@ import Widget from "@/components/Widget";
 import React, { useState } from 'react';
 import styled from "styled-components";
 import AlternativesForm from "@/components/AlternativeForm";
+import BackLinkArrow from "@/components/BackLinkArrow";
 
 function ResultWidget({results}) {
   return (
@@ -48,7 +49,6 @@ const Loading = styled.div`
       color: ${({ theme }) => theme.colors.primary};
     }
   }
-
 
   @keyframes glitch {
     0% {
@@ -166,6 +166,20 @@ const Loading = styled.div`
   .abstergo__handler-03:before {
     animation: spin3 2s ease-in-out 1.5s infinite backwards;
   }
+
+  @media (max-width: 768px) {
+    .abstergo {
+    top: 55%;
+    left: 25%;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .abstergo {
+    top: 185px;
+    left: 65px;
+    }
+  }
 `;
 
 function LoadingWidget() {
@@ -216,6 +230,7 @@ function QuestionWidget({
   return (
     <Widget>
       <Widget.Header>
+        <BackLinkArrow href="/"/>
         <h3>
           {`Pergunta ${questionIndex + 1} de ${totalQuestions}`}
         </h3>
@@ -326,7 +341,9 @@ export default function QuizPage() {
   return (
     <QuizBackground backgroundImage={db.bg}>
       <QuizContainer>
-        <QuizLogo />
+        <QuizLogo 
+          logo="/logo.png"
+        />
         {screenState === screenStates.QUIZ && (
           <QuestionWidget
             question={question}

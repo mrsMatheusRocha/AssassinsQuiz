@@ -1,9 +1,9 @@
 import styled from "styled-components";
 import React from "react";
 
-function QuizLogo() {
+function QuizLogo({logo}) {
   return (
-    <Logo src="/logo.png" alt="Logo do WebApp"/>
+    <Logo src={logo} alt="Logo do WebApp"/>
   );
 }
 
