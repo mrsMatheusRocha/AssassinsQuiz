@@ -15,7 +15,6 @@
 - [Usage](#-usage)
 - [Project Structure](#-project-structure)
 - [Contributing](#-contributing)
-- [License](#-license)
 
 ---
 
@@ -86,12 +85,6 @@ AssassinsQuiz/
 
 Contributions are welcome!  
 Please fork the repository and submit a pull request.
-
----
-
-## 📄 License
-
-[MIT](LICENSE) © [mrsMatheusRocha](https://github.com/mrsMatheusRocha)
 
 ---
 
