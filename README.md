@@ -5,7 +5,7 @@
 
 ---
 
-![AssassinsQuiz Banner](https://github.com/mrsMatheusRocha/AssassinsQuiz/blob/4810fb32651e51ae96ee25ab98b964e359a3be71/public/logo.png) <!-- Replace with your own banner or logo -->
+![AssassinsQuiz Banner]([https://github.com/mrsMatheusRocha/AssassinsQuiz/blob/4810fb32651e51ae96ee25ab98b964e359a3be71/public/logo.png](https://github.com/mrsMatheusRocha/AssassinsQuiz/blob/7225ab49ee17434d42638ebe6b4e365726b7d76d/public/assassinsquizminiatura.png))
 
 ## ✨ Table of Contents
 
