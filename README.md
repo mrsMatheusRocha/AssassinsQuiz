@@ -32,7 +32,7 @@
 
 > _Add a screenshot or GIF below to show your quiz in action!_
 
-![Quiz Demo](https://user-images.githubusercontent.com/yourusername/demo.gif) <!-- Replace with your own image or GIF -->
+![Quiz Demo](https://github.com/mrsMatheusRocha/AssassinsQuiz/blob/b85c52d251cfdf801d94d35044533bf6798532a9/public/chrome-capture-2025-6-9%20(1)%20(1).gif)
 
 ---
 
