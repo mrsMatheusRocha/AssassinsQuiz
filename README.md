@@ -4,8 +4,7 @@
 > _Test your knowledge, challenge friends, and see if you’re a true Assassin!_
 
 ---
-
-![AssassinsQuiz Banner](assassinsquizminiatura.png)
+<img src="/assassinsquizminiatura.png" alt="The main page of the web game." />
 
 ## ✨ Table of Contents
 
