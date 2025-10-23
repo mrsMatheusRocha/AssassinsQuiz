@@ -4,7 +4,7 @@
 > _Test your knowledge, challenge friends, and see if you’re a true Assassin!_
 
 ---
-<img src="assassinsquizminiatura.png" alt="The main page of the web game." />
+![Miniature](https://github.com/mrsMatheusRocha/AssassinsQuiz/blob/master/assassinsquizminiatura.png)
 
 ## ✨ Table of Contents
 
