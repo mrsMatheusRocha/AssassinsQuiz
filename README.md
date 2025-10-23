@@ -5,7 +5,7 @@
 
 ---
 
-![AssassinsQuiz Banner](/assassinsquizminiatura.png)
+![AssassinsQuiz Banner](assassinsquizminiatura.png)
 
 ## ✨ Table of Contents
 
